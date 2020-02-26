@@ -1,0 +1,319 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	
+}
+
+body
+{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family:monospace sans-serif;
+	background:#fff;
+	
+}
+
+.top-header
+{
+	width: 100%;
+}
+
+.top-contioner
+{
+	display: flex;
+	background-color:#abdbca;
+	margin: 15px 0px 0px 0px;
+	
+}
+
+.logo
+{
+	margin: 5px 0px 0px 30px;
+	padding:5px;
+	float: left;
+}
+
+.logo img{
+	  border-radius: 50%;
+      height: 90px;
+	  width: 95px;
+}
+
+.schl-name
+{
+	margin: 25px auto auto 5px;
+	
+}
+.schl-name h4
+{
+	margin-bottom:-2px;
+	text-decoration: none;
+}
+.schl-name p
+{
+	font-size: 14px;
+}
+
+.nav-header
+{
+	margin-left: 150px;
+}
+.nav-header ul{
+	list-style: none;
+	display: inline-flex;
+	margin-top: 12px;
+	
+}
+.nav-header ul li
+{
+
+	margin-left: 4px;
+	padding: 0px 3px 0px 0px;
+	border-right: 2px solid #323836;
+	height: 12px;
+	line-height: 10px;
+	
+}
+.nav-header ul li:last-child{
+	border-right: none;
+}
+.nav-header ul li a
+{
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	color: black;
+	text-decoration: none;
+	
+}
+.phone-num
+{
+	margin: 15px 5px auto 150px;
+	text-align: right;
+}
+.phone-num h2
+{
+	margin-bottom:-2px;
+}
+.phone-iocn
+{
+	margin: 25px auto auto 0px;
+	
+}
+
+.phone-iocn {
+	width: 30px;
+	height: 30px;
+}
+.phone-iocn i
+{
+	width: 30px;
+	height: 30px;
+}
+
+.nav-bar
+{
+	margin: 10px 0px 0px 0px;
+}
+.carousel-item img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+	margin-top: 20px;
+}
+
+.icons
+{
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	position: fixed;
+	z-index: 100;
+}
+
+.icons ul
+{
+	padding: initial;
+}
+.icons ul li
+{
+	height: 36px;
+	width: 36px;
+	list-style-type: none;
+	padding-top: 6px;
+	margin-top: 5px;
+	color: #fff;
+	
+	text-align: center;
+	border-bottom-right-radius: 10px;
+}
+
+.icons ul li:hover
+{
+	padding-left: 28px;
+	width: 78px;
+	transition: 1s;
+	
+}
+
+.facebook
+{
+	background: #3b5998;
+}
+.twitter
+{
+	background: #00acee;
+}
+.youtube
+{
+	background: #c4302b;
+}
+.instagram
+{
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+
+
+.nios
+{
+	padding:10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+	
+}
+
+.heading
+{
+	text-align: center;
+	
+	
+}
+
+.arw-icon
+{
+
+}
+.arw-icon:before{
+content: '';
+	display: block;
+	width: 290px;
+	height: 2px;
+	background: #bbb;
+	position: absolute;
+	left: 27%;
+	top: 110%;
+	z-index: -1;
+}
+
+.arw-icon:after{
+    content: '';
+	display: block;
+	width: 290px;
+	height: 2px;
+	background: #bbb;
+	position: absolute;
+	right: 27%;
+	top: 110%;
+	z-index: -1;
+	
+}
+.heading p
+{
+	margin: auto 70px 50px 70px;
+	padding: 20px auto 20px auto;
+	text-align: left;
+	font-size: 17px;
+}
+
+.nios-img
+{
+	display: block;
+	margin-left: 120px;
+	margin-right: 80px;	
+}
+
+.nios-img p
+{
+	margin: 30px auto 25px auto;
+}
+
+
+footer
+{
+	display: flex;
+	background-color: #edf5f4;
+}
+.footer1
+{
+	display: inline-block;
+	margin-left: 180px;
+	margin-right: 10px;	
+	margin-top: 45px;
+	margin-bottom: 100px;
+}
+.footer1 h6
+{
+	text-align: center;
+}
+.footer2
+{
+	display: flex;
+}
+.footer2-1
+{
+	margin: 20px 40px 30px 30px;
+	width: 440px;
+	height: 300px;
+		
+}
+.footer2-1-1{
+	margin: 10px 20px 30px 10px;
+}
+.contact
+{
+	text-align: left;
+	margin: 30px 10px 30px 20px;
+}
+.contact ul
+{
+
+}
+.contact ul li{
+	list-style: none;
+}
+
+
+
+.admission-enquiry
+{
+	background-color: #fff;
+	text-align: center;
+	width: 300px;
+	margin: 40px auto;
+}
+.admission-enquiry h5
+{
+	font-family:  Helvetica;
+	padding-top: 15px;
+}
+
+.admission-enquiry input
+{
+	width: 230px;
+	text-align:start;
+	margin: auto 35px 15px 35px;
+	border-radius: 5px;
+}
+.btn-submit
+{
+	background-color: #3090C7;
+	width: 150px;
+	height: 45px;
+	border-radius: 10px;
+	margin: 20px 30px; 	 
+}
